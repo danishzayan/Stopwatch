@@ -1,0 +1,60 @@
+/* /////////////////////////////////////////////////
+//// Project Name: StopWatch in gradient color  ////
+//// Developer Name: Danish Kamal               ////
+//// Date : 04/12/2021 time-taken: 2hour        ////
+//////////////////////////////////////////////////// */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, orange,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    color: white;
+}
+.time-cont{
+    margin-top: -70px;
+}
+.digit{
+    font-size: 160px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-cont{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    padding: 8px 35px;
+    margin: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 0px 0px 7px white ;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    color: white;
+}
